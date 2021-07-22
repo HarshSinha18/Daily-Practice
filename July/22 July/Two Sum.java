@@ -1,6 +1,9 @@
-package July.July14;
-
-/*public class SumOfTwoNumber {
+/* Input: nums = [2,7,11,15], target = 9
+Output: [0,1]
+Output: Because nums[0] + nums[1] == 9, we return [0, 1].
+*/
+                                              Withoud Method
+public class SumOfTwoNumber {
 
 	public static void main(String[] args) {
 		
@@ -17,8 +20,9 @@ package July.July14;
 	}
 }
 } 
-*/
-public class SumOfTwoNumber{
+
+                                           With Method
+/*public class SumOfTwoNumber{
 	public static void main(String[] args) {
 		int nums[] = {2,7,11,15};
 		int target = 9;
@@ -41,3 +45,4 @@ public class SumOfTwoNumber{
 	}
 
 	}
+	*/
