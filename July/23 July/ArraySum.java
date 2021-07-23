@@ -1,3 +1,9 @@
+/* Given an array of integers, find the sum of its elements.
+          ar=[1 ,2 ,3] 
+	      1+2+3 = 6 <-- Output
+*/
+
+
 package July.July14;
 import java.util.Scanner;
 public class ArraySum {
