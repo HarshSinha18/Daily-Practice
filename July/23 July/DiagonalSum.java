@@ -1,3 +1,14 @@
+/* Given a square matrix, calculate the absolute difference between the sums of its diagonals.
+For example, the square matrix arr is shown below:
+
+1 2 3
+4 5 6
+9 8 9  
+
+1+5+9=15 , 3+5+9=17
+|15-17| = 2 <-- Output
+*/
+
 package July.July14;
 import java.util.Scanner;
 public class DiagonalSum {
