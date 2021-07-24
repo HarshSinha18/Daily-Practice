@@ -1,3 +1,10 @@
+/* Given an array of integers, calculate the ratios of its elements that are positive, negative,
+and zero. Print the  decimal value of each fraction on a new  line with  6 places after the decimal.\
+
+arr[ 1 , 1 , 0 , -1 , -1 ]
+2/  5 , 1/5 , 2 / 5
+
+*/
 package July.July14;
 import java.text.DecimalFormat;
 import java.text.NumberFormat;
@@ -27,7 +34,7 @@ public class plusMinus {
 				zero++;
 			}
 		}
-	    double a = (float)plus/n;
+	        double a = (float)plus/n;
 		double b = (float)minus/n;
 		double c = (float)zero/n;
 		NumberFormat nm = new DecimalFormat("#0.000000");
