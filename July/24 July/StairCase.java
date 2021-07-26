@@ -1,4 +1,7 @@
-package July.July14;
+/*
+
+*/
+
 import java.util.Scanner;
 public class StairCase {
 	public static void main(String[] args) {
