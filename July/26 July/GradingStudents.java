@@ -1,4 +1,3 @@
-package July.July14;
 import java.util.Scanner;
 public class GradingStudents {
 	public static void main(String[] args) {
@@ -18,7 +17,7 @@ public class GradingStudents {
 			for(int k = 0 ; k< 5 ; k++) {
 				 sum = grades[j]+k;
 			if(sum%5==0) {
-				if (k<3 && grades[j]>33) {
+				if (k<3 && grades[j]>38) {
 					ans = grades[j]+k;
 					System.out.println(ans);
 					break;
