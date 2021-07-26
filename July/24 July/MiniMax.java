@@ -1,3 +1,14 @@
+/* Given five positive integers, find the minimum and maximum values that can be calculated by summing exactly four of the five integers.
+Then print the respective minimum and maximum values as a single line of two space-separated long integers.
+arr[ 1 , 2 , 3  , 4 , 5 ]
+min : 1+3+5+7 = 16
+max : 3 + 5 + 7 + 8 = 24
+
+Output --> 16  24
+
+*/
+
+
 package July.July14;
 import java.util.Scanner;
 public class MiniMax {
