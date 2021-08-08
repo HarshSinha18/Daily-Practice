@@ -1,6 +1,6 @@
 package July.July14;
 import java.util.Scanner;
-public class catAndMouse {
+public class CatAndMouse {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int q = sc.nextInt();
